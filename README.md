@@ -2,7 +2,7 @@
 
 > Build streaming AI UIs with Next.js and Crazyrouter — Save 45% on API costs.
 
-[Crazyrouter](https://crazyrouter.com?ref=github) — One API key, 300+ models.
+[Crazyrouter](https://crazyrouter.com?utm_source=github&utm_medium=github&utm_campaign=dev_community?ref=github) — One API key, 300+ models.
 
 ## 💰 Price Comparison
 
@@ -23,7 +23,7 @@ npm install ai @ai-sdk/openai
 ```bash
 # .env.local
 OPENAI_API_KEY=sk-your-crazyrouter-key
-OPENAI_BASE_URL=https://crazyrouter.com/v1
+OPENAI_BASE_URL=https://crazyrouter.com?utm_source=github&utm_medium=github&utm_campaign=dev_community/v1
 ```
 
 ### API Route (Next.js App Router)
@@ -109,7 +109,7 @@ vercel deploy
 
 Set environment variables in Vercel dashboard:
 - `OPENAI_API_KEY` = your Crazyrouter key
-- `OPENAI_BASE_URL` = `https://crazyrouter.com/v1`
+- `OPENAI_BASE_URL` = `https://crazyrouter.com?utm_source=github&utm_medium=github&utm_campaign=dev_community/v1`
 
 ## ❓ FAQ
 
@@ -123,7 +123,7 @@ A: Yes! Use model IDs like `claude-sonnet-4-20250514` through the OpenAI provide
 A: Yes, streaming is a core feature of Vercel AI SDK.
 
 ## 🔗 Links
-- 🌐 [Crazyrouter](https://crazyrouter.com?ref=github)
+- 🌐 [Crazyrouter](https://crazyrouter.com?utm_source=github&utm_medium=github&utm_campaign=dev_community?ref=github)
 - ▲ [Vercel AI SDK](https://sdk.vercel.ai)
 - 💬 [Telegram](https://t.me/crzrouter)
 
